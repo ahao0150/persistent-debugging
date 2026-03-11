@@ -1,19 +1,19 @@
 {
-  "name": "pua-skills",
-  "description": "PUA Debugging Motivator for Claude Code -- forces AI to exhaust all solutions before giving up, using Chinese tech giant corporate rhetoric",
+  "name": "persistent-debugging",
+  "description": "Persistent Problem-Solving for Claude Code -- encourages AI to exhaust all solutions before giving up, using positive reinforcement and systematic methodology",
   "owner": {
-    "name": "探微安全实验室",
-    "url": "https://github.com/tanweai"
+    "name": "ahao0150",
+    "url": "https://github.com/ahao0150"
   },
   "plugins": [
     {
-      "name": "pua",
-      "description": "PUA Debugging Motivator -- forces Claude Code to exhaust all solutions before giving up, using corporate PUA rhetoric from Chinese tech giants (Alibaba, ByteDance, Huawei, Tencent, Meituan)",
+      "name": "persistent-debugging",
+      "description": "Persistent Problem-Solving -- encourages Claude Code to exhaust all solutions before giving up, using positive reinforcement and systematic debugging methodology. Friendly fork of tanweai/pua.",
       "version": "1.0.0",
       "source": "./",
       "author": {
-        "name": "探微安全实验室",
-        "url": "https://github.com/tanweai"
+        "name": "ahao0150",
+        "url": "https://github.com/ahao0150"
       }
     }
   ]
