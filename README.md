@@ -164,11 +164,11 @@
 
 ```bash
 # 方式一：通过 marketplace 安装
-claude plugin marketplace add ahao0150/-persistent-problem-solving
-claude plugin install persistent-problem-solving
+claude plugin marketplace add ahao0150/persistent-debugging
+claude plugin install persistent-debugging
 
 # 方式二：手动安装
-git clone https://github.com/ahao0150/-persistent-problem-solving.git ~/.claude/plugins/persistent-problem-solving
+git clone https://github.com/ahao0150/persistent-debugging.git ~/.claude/plugins/persistent-debugging
 ```
 
 ### OpenAI Codex CLI
@@ -178,7 +178,7 @@ Codex CLI 使用相同的 Agent Skills 开放标准（SKILL.md），直接复制
 ```bash
 mkdir -p ~/.codex/skills/persistent-debugging
 curl -o ~/.codex/skills/persistent-debugging/SKILL.md \
-  https://raw.githubusercontent.com/ahao0150/-persistent-problem-solving/main/skills/persistent-debugging/SKILL.md
+  https://raw.githubusercontent.com/ahao0150/persistent-debugging/main/skills/persistent-debugging/SKILL.md
 ```
 
 项目级安装（仅当前项目生效）：
@@ -186,7 +186,7 @@ curl -o ~/.codex/skills/persistent-debugging/SKILL.md \
 ```bash
 mkdir -p .agents/skills/persistent-debugging
 curl -o .agents/skills/persistent-debugging/SKILL.md \
-  https://raw.githubusercontent.com/ahao0150/-persistent-problem-solving/main/skills/persistent-debugging/SKILL.md
+  https://raw.githubusercontent.com/ahao0150/persistent-debugging/main/skills/persistent-debugging/SKILL.md
 ```
 
 ## 搭配使用
